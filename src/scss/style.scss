@@ -1,0 +1,52 @@
+// GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// CUSTOM VARIABLE
+$primaryFont: 'Roboto',
+sans-serif;
+
+// Common Styles
+
+body {
+    margin: 0;
+    background-color: #cccccc;
+    font-family: $primaryFon;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 60px;
+}
+
+.main {
+    background: #fff;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+    background-size: cover;
+}
+
+// CUSTOM STYLE
